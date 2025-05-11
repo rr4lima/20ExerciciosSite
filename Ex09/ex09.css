@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    margin: 40px;
+    background-color: rgb(186, 159, 211);
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Container para o formulário em linha */
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+label {
+    margin-right: 5px;
+}
+
+input, button {
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(139, 103, 173);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(164, 134, 224);
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.semaforo {
+  background-color: black;
+  padding: 20px;
+  width: 100px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.luz {
+  width: 60px;
+  height: 60px;
+  background-color: #111;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.aceso#vermelho {
+  background-color: red;
+}
+
+.aceso#amarelo {
+  background-color: yellow;
+}
+
+.aceso#verde {
+  background-color: green;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro com Validação</title>
+    <link rel="stylesheet" href="ex18.css">
+    <script src="ex18.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Cadastro</h2>
+        <form id="form" action="#" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" >
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" >
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" placeholder="Digite sua senha">
+
+            <button type="submit">Cadastrar</button>
+        </form>
+        <div id="mensagem-erro"></div>
+    </div>
+</body>
+</html>

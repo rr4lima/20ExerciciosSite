@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="ex04.css">
+    <script src="ex04.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Calculadora</h2>
+        <form id="calculadora">
+            <label for="n1">Primeiro número:</label>
+            <input id="numero1"/>
+
+            <label for="n2">Segundo número:</label>
+            <input id="numero2"/>
+
+            <select id="operacao">
+                <option value="+">Adição</option>
+                <option value="-">Subtração</option>
+                <option value="*">Multiplicação</option>
+                <option value="/">Divisão</option>
+            </select>
+
+            <button type="submit">Calcular</button>
+        </form>
+        <p id="resultado"></p>
+    </div>
+</body>
+
+</html>
