@@ -21,7 +21,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
         return;
     }
 
-    // Se passou nas validações, exibir sucesso
+   
     mensagemErro.textContent = 'Cadastro realizado com sucesso!';
     mensagemErro.style.color = 'green';
 });
