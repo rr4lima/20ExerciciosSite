@@ -4,7 +4,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
     const nota1 = parseFloat(document.getElementById('nota1').value);
     const nota2 = parseFloat(document.getElementById('nota2').value);
     const nota3 = parseFloat(document.getElementById('nota3').value);
-    const nota4 = parseFloat(document.getElementById('nota4').value) || 0;  // Valor padrão 0 se não inserido
+    const nota4 = parseFloat(document.getElementById('nota4').value) || 0; 
 
     if (isNaN(nota1) || isNaN(nota2) || isNaN(nota3)) {
         alert("Insira pelo menos três notas válidas.");
